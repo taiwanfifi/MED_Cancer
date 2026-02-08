@@ -1,0 +1,174 @@
+{
+  "experiment": "Exp 8: Deep Learning Survival Prediction",
+  "hypothesis": "Multi-modal > single-omics for survival prediction",
+  "cancer_types": [
+    "BRCA",
+    "LUAD",
+    "KIRC"
+  ],
+  "models_tested": 6,
+  "results": [
+    {
+      "model": "Clinical-only",
+      "cancer_type": "BRCA",
+      "c_index": 0.8939393939393939,
+      "n_train": 60,
+      "n_test": 26,
+      "n_features": 3,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Expression-only",
+      "cancer_type": "BRCA",
+      "c_index": 0.6521739130434783,
+      "n_train": 62,
+      "n_test": 28,
+      "n_features": 100,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Immune-only",
+      "cancer_type": "BRCA",
+      "c_index": 0.17391304347826086,
+      "n_train": 62,
+      "n_test": 28,
+      "n_features": 12,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Immune+Clinical",
+      "cancer_type": "BRCA",
+      "c_index": 0.7121212121212122,
+      "n_train": 60,
+      "n_test": 26,
+      "n_features": 15,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Multi-modal-DeepSurv",
+      "cancer_type": "BRCA",
+      "c_index": 0.6363636363636364,
+      "n_train": 60,
+      "n_test": 26,
+      "n_features": 115,
+      "method": "DeepSurv"
+    },
+    {
+      "model": "Immune+Clin-DeepSurv",
+      "cancer_type": "BRCA",
+      "c_index": 0.7121212121212122,
+      "n_train": 60,
+      "n_test": 26,
+      "n_features": 15,
+      "method": "DeepSurv"
+    },
+    {
+      "model": "Clinical-only",
+      "cancer_type": "LUAD",
+      "c_index": 0.8135593220338984,
+      "n_train": 42,
+      "n_test": 18,
+      "n_features": 3,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Expression-only",
+      "cancer_type": "LUAD",
+      "c_index": 0.30625,
+      "n_train": 53,
+      "n_test": 24,
+      "n_features": 100,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Immune-only",
+      "cancer_type": "LUAD",
+      "c_index": 0.50625,
+      "n_train": 53,
+      "n_test": 24,
+      "n_features": 12,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Immune+Clinical",
+      "cancer_type": "LUAD",
+      "c_index": 0.7796610169491526,
+      "n_train": 42,
+      "n_test": 18,
+      "n_features": 15,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Multi-modal-DeepSurv",
+      "cancer_type": "LUAD",
+      "c_index": 0.5932203389830508,
+      "n_train": 42,
+      "n_test": 18,
+      "n_features": 115,
+      "method": "DeepSurv"
+    },
+    {
+      "model": "Immune+Clin-DeepSurv",
+      "cancer_type": "LUAD",
+      "c_index": 0.6440677966101694,
+      "n_train": 42,
+      "n_test": 18,
+      "n_features": 15,
+      "method": "DeepSurv"
+    },
+    {
+      "model": "Clinical-only",
+      "cancer_type": "KIRC",
+      "c_index": 0.625,
+      "n_train": 45,
+      "n_test": 20,
+      "n_features": 3,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Expression-only",
+      "cancer_type": "KIRC",
+      "c_index": 0.5602836879432624,
+      "n_train": 54,
+      "n_test": 24,
+      "n_features": 100,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Immune-only",
+      "cancer_type": "KIRC",
+      "c_index": 0.5106382978723404,
+      "n_train": 54,
+      "n_test": 24,
+      "n_features": 12,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Immune+Clinical",
+      "cancer_type": "KIRC",
+      "c_index": 0.4342105263157895,
+      "n_train": 45,
+      "n_test": 20,
+      "n_features": 15,
+      "method": "Cox-PH"
+    },
+    {
+      "model": "Multi-modal-DeepSurv",
+      "cancer_type": "KIRC",
+      "c_index": 0.5394736842105263,
+      "n_train": 45,
+      "n_test": 20,
+      "n_features": 115,
+      "method": "DeepSurv"
+    },
+    {
+      "model": "Immune+Clin-DeepSurv",
+      "cancer_type": "KIRC",
+      "c_index": 0.35526315789473684,
+      "n_train": 45,
+      "n_test": 20,
+      "n_features": 15,
+      "method": "DeepSurv"
+    }
+  ]
+}

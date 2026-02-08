@@ -1,0 +1,42 @@
+{
+  "cancer_type": "BRCA",
+  "n_sl_targets": 126,
+  "n_degs": 2674,
+  "overlap": [
+    "CFL1",
+    "CHAF1B",
+    "FERMT2",
+    "GINS4",
+    "IRS2",
+    "KIF14",
+    "MAD2L1",
+    "MYC",
+    "ORC6",
+    "SEPHS2",
+    "SGO1",
+    "TTK",
+    "TUBG1"
+  ],
+  "sl_upregulated": [
+    "CFL1",
+    "CHAF1B",
+    "GINS4",
+    "KIF14",
+    "MAD2L1",
+    "ORC6",
+    "SEPHS2",
+    "SGO1",
+    "TTK",
+    "TUBG1"
+  ],
+  "sl_downregulated": [
+    "FERMT2",
+    "IRS2",
+    "MYC"
+  ],
+  "driver_degs": [
+    "EGFR",
+    "ERBB2",
+    "MYC"
+  ]
+}

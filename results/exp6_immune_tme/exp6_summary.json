@@ -1,0 +1,11 @@
+{
+  "experiment": "Exp 6: Tumor Microenvironment & Immune Analysis",
+  "hypothesis": "H4: TME features predict immunotherapy response better than TMB",
+  "cancer_types_analyzed": [
+    "BRCA",
+    "LUAD",
+    "KIRC"
+  ],
+  "n_cell_types": 12,
+  "significant_associations": 6
+}

@@ -1,0 +1,42 @@
+# Data (too large for git — download via scripts)
+data/
+checkpoints/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.gguf
+*.bin
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace

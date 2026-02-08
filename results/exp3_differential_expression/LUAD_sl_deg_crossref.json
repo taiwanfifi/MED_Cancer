@@ -1,0 +1,40 @@
+{
+  "cancer_type": "LUAD",
+  "n_sl_targets": 126,
+  "n_degs": 3162,
+  "overlap": [
+    "CHAF1B",
+    "DTYMK",
+    "FERMT2",
+    "GAPDH",
+    "GINS4",
+    "KIF14",
+    "MAD2L1",
+    "ORC6",
+    "RFC4",
+    "SGO1",
+    "TTK",
+    "TUBG1",
+    "TWNK",
+    "WWTR1"
+  ],
+  "sl_upregulated": [
+    "CHAF1B",
+    "DTYMK",
+    "GAPDH",
+    "GINS4",
+    "KIF14",
+    "MAD2L1",
+    "ORC6",
+    "RFC4",
+    "SGO1",
+    "TTK",
+    "TUBG1",
+    "TWNK"
+  ],
+  "sl_downregulated": [
+    "FERMT2",
+    "WWTR1"
+  ],
+  "driver_degs": []
+}

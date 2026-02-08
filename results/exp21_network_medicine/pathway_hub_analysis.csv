@@ -1,0 +1,13 @@
+pathway,n_genes,sl_connections,connected_pathways,partner_pathways,hub_score
+RAS_MAPK,14,285,8,"Cell_Cycle, Chromatin_Remodeling, DNA_Repair, Ferroptosis, MYC_Network, Metabolism, RTK_Signaling, p53_Apoptosis",2280
+DNA_Repair,20,255,6,"Cell_Cycle, MYC_Network, Metabolism, PI3K_AKT_mTOR, RAS_MAPK, p53_Apoptosis",1530
+PI3K_AKT_mTOR,14,150,5,"Cell_Cycle, DNA_Repair, Metabolism, Wnt_Signaling, p53_Apoptosis",750
+RTK_Signaling,14,73,3,"Ferroptosis, MYC_Network, RAS_MAPK",219
+Chromatin_Remodeling,17,43,3,"Ferroptosis, MYC_Network, RAS_MAPK",129
+Metabolism,14,32,4,"DNA_Repair, Ferroptosis, PI3K_AKT_mTOR, RAS_MAPK",128
+MYC_Network,11,26,4,"Chromatin_Remodeling, DNA_Repair, RAS_MAPK, RTK_Signaling",104
+Ferroptosis,14,6,5,"Chromatin_Remodeling, Metabolism, RAS_MAPK, RTK_Signaling, Wnt_Signaling",30
+Cell_Cycle,23,8,3,"DNA_Repair, PI3K_AKT_mTOR, RAS_MAPK",24
+Wnt_Signaling,14,12,2,"Ferroptosis, PI3K_AKT_mTOR",24
+p53_Apoptosis,15,5,3,"DNA_Repair, PI3K_AKT_mTOR, RAS_MAPK",15
+Immune_Checkpoint,12,0,0,,0

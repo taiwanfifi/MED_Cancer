@@ -1,0 +1,120 @@
+{
+  "experiment": "Exp 20: Epigenetic Vulnerability Mapping",
+  "epigenetic_families": 9,
+  "total_genes_tested": 93,
+  "pan_cancer_landscape": {
+    "most_essential": [
+      {
+        "gene": "KAT8",
+        "family": "HAT",
+        "mean_effect": -1.655143666490545,
+        "essential_fraction": 0.9990791896869244
+      },
+      {
+        "gene": "RBBP4",
+        "family": "PRC2",
+        "mean_effect": -1.327661285420923,
+        "essential_fraction": 0.998158379373849
+      },
+      {
+        "gene": "ACTL6A",
+        "family": "SWI_SNF",
+        "mean_effect": -1.4977969562116096,
+        "essential_fraction": 0.9861878453038674
+      },
+      {
+        "gene": "SETD1A",
+        "family": "KMT",
+        "mean_effect": -0.9589933508699822,
+        "essential_fraction": 0.9659300184162063
+      },
+      {
+        "gene": "BRD4",
+        "family": "BET",
+        "mean_effect": -1.0121325827308718,
+        "essential_fraction": 0.932780847145488
+      }
+    ]
+  },
+  "cancer_specific": {
+    "total_tests": 0,
+    "significant_fdr05": 0,
+    "lineages_tested": 0
+  },
+  "rewiring": {
+    "total_tests": 128,
+    "significant_fdr05": 25
+  },
+  "druggable_targets": [
+    {
+      "gene": "BRD4",
+      "drug": "JQ1/OTX015/ABBV-075 (clinical trials)",
+      "pan_cancer_essential_frac": 0.932780847145488
+    },
+    {
+      "gene": "DNMT1",
+      "drug": "Azacitidine/Decitabine (FDA)",
+      "pan_cancer_essential_frac": 0.7596685082872928
+    },
+    {
+      "gene": "EHMT2",
+      "drug": "UNC0642 (preclinical)",
+      "pan_cancer_essential_frac": 0.36095764272559855
+    },
+    {
+      "gene": "EP300",
+      "drug": "CCS1477 (clinical trial)",
+      "pan_cancer_essential_frac": 0.22467771639042358
+    },
+    {
+      "gene": "CREBBP",
+      "drug": "A-485 (preclinical)",
+      "pan_cancer_essential_frac": 0.07366482504604052
+    },
+    {
+      "gene": "DOT1L",
+      "drug": "Pinometostat (clinical trial)",
+      "pan_cancer_essential_frac": 0.05432780847145488
+    },
+    {
+      "gene": "EZH2",
+      "drug": "Tazemetostat (FDA approved)",
+      "pan_cancer_essential_frac": 0.040515653775322284
+    },
+    {
+      "gene": "SMARCA2",
+      "drug": "FHD-286 (clinical trial)",
+      "pan_cancer_essential_frac": 0.03406998158379374
+    },
+    {
+      "gene": "HDAC1",
+      "drug": "Vorinostat/Romidepsin (FDA)",
+      "pan_cancer_essential_frac": 0.027624309392265192
+    },
+    {
+      "gene": "BRD9",
+      "drug": "BI-7273 (preclinical)",
+      "pan_cancer_essential_frac": 0.013812154696132596
+    },
+    {
+      "gene": "KDM1A",
+      "drug": "Iadademstat (clinical trial)",
+      "pan_cancer_essential_frac": 0.007366482504604052
+    },
+    {
+      "gene": "KDM5B",
+      "drug": "KDOAM-25 (preclinical)",
+      "pan_cancer_essential_frac": 0.0027624309392265192
+    },
+    {
+      "gene": "HDAC6",
+      "drug": "Ricolinostat",
+      "pan_cancer_essential_frac": 0.0
+    },
+    {
+      "gene": "DNMT3A",
+      "drug": "Azacitidine",
+      "pan_cancer_essential_frac": 0.0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "experiment": "Exp 18: Drug Synergy Prediction",
+  "total_sl_pairs": 159,
+  "druggable_sl_pairs": 4,
+  "codependency_pairs_tested": 159,
+  "negative_codep_pairs": 146,
+  "network_genes": 140,
+  "top_hub_genes": [
+    {
+      "gene": "VHL",
+      "degree": 27
+    },
+    {
+      "gene": "MYC",
+      "degree": 21
+    },
+    {
+      "gene": "FBXW7",
+      "degree": 21
+    },
+    {
+      "gene": "KRAS",
+      "degree": 17
+    },
+    {
+      "gene": "BRCA2",
+      "degree": 17
+    }
+  ],
+  "top_synergy_pairs": [
+    {
+      "gene_a": "BRCA1",
+      "gene_b": "MYC",
+      "synergy_score": 0.7455701620074642
+    },
+    {
+      "gene_a": "BRCA2",
+      "gene_b": "TP53",
+      "synergy_score": 0.6945841657061194
+    },
+    {
+      "gene_a": "BRAF",
+      "gene_b": "TP53",
+      "synergy_score": 0.6689111618832566
+    },
+    {
+      "gene_a": "BRCA1",
+      "gene_b": "CDK6",
+      "synergy_score": 0.5880800870571772
+    }
+  ],
+  "cancer_types_analyzed": []
+}

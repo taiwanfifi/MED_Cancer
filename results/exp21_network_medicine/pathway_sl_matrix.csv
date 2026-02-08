@@ -1,0 +1,13 @@
+,Cell_Cycle,Chromatin_Remodeling,DNA_Repair,Ferroptosis,Immune_Checkpoint,MYC_Network,Metabolism,PI3K_AKT_mTOR,RAS_MAPK,RTK_Signaling,Wnt_Signaling,p53_Apoptosis
+Cell_Cycle,0,0,5,0,0,0,0,2,1,0,0,0
+Chromatin_Remodeling,0,0,0,1,0,1,0,0,1,0,0,0
+DNA_Repair,5,0,0,0,0,3,2,3,3,0,0,2
+Ferroptosis,0,1,0,0,0,0,1,0,3,2,1,0
+Immune_Checkpoint,0,0,0,0,0,0,0,0,0,0,0,0
+MYC_Network,0,1,3,0,0,1,0,0,2,1,0,0
+Metabolism,0,0,2,1,0,0,0,1,1,0,0,0
+PI3K_AKT_mTOR,2,0,3,0,0,0,1,2,0,0,1,2
+RAS_MAPK,1,1,3,3,0,2,1,0,3,2,0,1
+RTK_Signaling,0,0,0,2,0,1,0,0,2,1,0,0
+Wnt_Signaling,0,0,0,1,0,0,0,1,0,0,0,0
+p53_Apoptosis,0,0,2,0,0,0,0,2,1,0,0,0

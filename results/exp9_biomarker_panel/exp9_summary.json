@@ -1,0 +1,84 @@
+{
+  "experiment": "Exp 9: Pan-Cancer Biomarker Panel",
+  "cancer_types": [
+    "BRCA",
+    "LUAD",
+    "KIRC"
+  ],
+  "pan_cancer_consensus_genes": 0,
+  "consensus_gene_list": [],
+  "panel_evaluations": [
+    {
+      "panel": "Oncotype_DX_21",
+      "n_genes": 18,
+      "mean_c_index": 0.3416666666666667,
+      "std_c_index": 0.23614378858841253,
+      "genes": "MKI67, AURKA, BIRC5, CCNB1, MYBL2, ERBB2, GRB7, ESR1, PGR, BCL2",
+      "cancer_type": "BRCA"
+    },
+    {
+      "panel": "MammaPrint_70",
+      "n_genes": 18,
+      "mean_c_index": 0.35,
+      "std_c_index": 0.23746344747958345,
+      "genes": "CCNE2, MMP9, CXCL1, IGFBP5, MELK, FLT1, TGFB3, ESM1, MCM6, CDC42BPA",
+      "cancer_type": "BRCA"
+    },
+    {
+      "panel": "Immune_Checkpoint",
+      "n_genes": 9,
+      "mean_c_index": 0.6472222222222221,
+      "std_c_index": 0.24195385234929961,
+      "genes": "CD274, PDCD1, CTLA4, LAG3, HAVCR2, TIGIT, CD8A, GZMA, PRF1",
+      "cancer_type": "BRCA"
+    },
+    {
+      "panel": "Oncotype_DX_21",
+      "n_genes": 17,
+      "mean_c_index": 0.6464477520196698,
+      "std_c_index": 0.12495309845429695,
+      "genes": "MKI67, AURKA, BIRC5, CCNB1, MYBL2, ERBB2, GRB7, ESR1, BCL2, SCUBE2",
+      "cancer_type": "LUAD"
+    },
+    {
+      "panel": "MammaPrint_70",
+      "n_genes": 18,
+      "mean_c_index": 0.5375954513523007,
+      "std_c_index": 0.1370311182540801,
+      "genes": "CCNE2, MMP9, CXCL1, IGFBP5, MELK, FLT1, TGFB3, ESM1, MCM6, CDC42BPA",
+      "cancer_type": "LUAD"
+    },
+    {
+      "panel": "Immune_Checkpoint",
+      "n_genes": 10,
+      "mean_c_index": 0.5529661046715841,
+      "std_c_index": 0.10067028447453759,
+      "genes": "CD274, PDCD1, CTLA4, LAG3, HAVCR2, TIGIT, CD8A, IFNG, GZMA, PRF1",
+      "cancer_type": "LUAD"
+    },
+    {
+      "panel": "Oncotype_DX_21",
+      "n_genes": 18,
+      "mean_c_index": 0.5940734048560136,
+      "std_c_index": 0.14011235399726013,
+      "genes": "MKI67, AURKA, BIRC5, CCNB1, MYBL2, ERBB2, GRB7, ESR1, PGR, BCL2",
+      "cancer_type": "KIRC"
+    },
+    {
+      "panel": "MammaPrint_70",
+      "n_genes": 18,
+      "mean_c_index": 0.7096510446075663,
+      "std_c_index": 0.12473062313446667,
+      "genes": "CCNE2, MMP9, CXCL1, IGFBP5, MELK, FLT1, TGFB3, ESM1, MCM6, CDC42BPA",
+      "cancer_type": "KIRC"
+    },
+    {
+      "panel": "Immune_Checkpoint",
+      "n_genes": 10,
+      "mean_c_index": 0.574789384528515,
+      "std_c_index": 0.12059146126407264,
+      "genes": "CD274, PDCD1, CTLA4, LAG3, HAVCR2, TIGIT, CD8A, IFNG, GZMA, PRF1",
+      "cancer_type": "KIRC"
+    }
+  ]
+}

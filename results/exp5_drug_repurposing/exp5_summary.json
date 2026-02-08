@@ -1,0 +1,28 @@
+{
+  "experiment": "Exp 5: Drug Repurposing GNN",
+  "graph_stats": {
+    "n_drugs": 3458,
+    "n_genes": 499,
+    "n_diseases": 7,
+    "n_edges": 76258,
+    "edge_types": {
+      "drug__gene": 4480,
+      "drug_inhibitor_gene": 1106,
+      "drug_modulator_gene": 36,
+      "drug_vaccine_gene": 5,
+      "drug_activator_gene": 2,
+      "drug_antibody_gene": 15,
+      "drug_binder_gene": 15,
+      "drug_negative modulator_gene": 3,
+      "drug_agonist_gene": 140,
+      "drug_other/unknown_gene": 9,
+      "drug_blocker_gene": 7,
+      "drug_cleavage_gene": 6,
+      "drug_immunotherapy_gene": 2,
+      "drug_treats_disease": 3307,
+      "drug_targets_gene": 33483,
+      "gene_associated_disease": 33483,
+      "gene_sl_gene": 159
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "experiment": "Exp 10: Drug Sensitivity / Gene Dependency Prediction",
+  "approach": "DepMap CRISPR gene effect + RF classification",
+  "n_genes_tested": 29,
+  "n_predictable": 28,
+  "top_genes": [
+    {
+      "gene": "MDM2",
+      "auc_mean": 0.8813810133942586,
+      "auc_std": 0.017059106332917053,
+      "n_dependent": 327,
+      "n_total": 1081,
+      "n_drugs": 26,
+      "approved_drugs": "IPILIMUMAB, CISPLATIN, PEMBROLIZUMAB",
+      "is_sl_target": false
+    },
+    {
+      "gene": "PTEN",
+      "auc_mean": 0.866138314831878,
+      "auc_std": 0.0805090934553531,
+      "n_dependent": 12,
+      "n_total": 1081,
+      "n_drugs": 151,
+      "approved_drugs": "PANITUMUMAB, GEFITINIB, AFATINIB",
+      "is_sl_target": false
+    },
+    {
+      "gene": "FGFR1",
+      "auc_mean": 0.8347717777144856,
+      "auc_std": 0.04518729056664405,
+      "n_dependent": 112,
+      "n_total": 1081,
+      "n_drugs": 108,
+      "approved_drugs": "INFIGRATINIB PHOSPHATE, NINTEDANIB ESYLATE, RABEPRAZOLE",
+      "is_sl_target": false
+    },
+    {
+      "gene": "BCL2",
+      "auc_mean": 0.8271090047393365,
+      "auc_std": 0.07067455198313367,
+      "n_dependent": 26,
+      "n_total": 1081,
+      "n_drugs": 82,
+      "approved_drugs": "OXALIPLATIN, POLATUZUMAB VEDOTIN, METHYLPREDNISOLONE",
+      "is_sl_target": false
+    },
+    {
+      "gene": "ATR",
+      "auc_mean": 0.8070103831006087,
+      "auc_std": 0.07282563664854966,
+      "n_dependent": 1047,
+      "n_total": 1081,
+      "n_drugs": 32,
+      "approved_drugs": "TEMOZOLOMIDE, TALAZOPARIB, CISPLATIN",
+      "is_sl_target": false
+    },
+    {
+      "gene": "EZH2",
+      "auc_mean": 0.7839355206655931,
+      "auc_std": 0.04579327942772207,
+      "n_dependent": 44,
+      "n_total": 1081,
+      "n_drugs": 18,
+      "approved_drugs": "TAZEMETOSTAT, TAZEMETOSTAT HYDROBROMIDE",
+      "is_sl_target": false
+    },
+    {
+      "gene": "PARP1",
+      "auc_mean": 0.7827776570310803,
+      "auc_std": 0.13285497780590005,
+      "n_dependent": 10,
+      "n_total": 1081,
+      "n_drugs": 26,
+      "approved_drugs": "NIACINAMIDE, NIRAPARIB TOSYLATE MONOHYDRATE, OLAPARIB",
+      "is_sl_target": false
+    },
+    {
+      "gene": "CCND1",
+      "auc_mean": 0.7507137524662719,
+      "auc_std": 0.034862650625170015,
+      "n_dependent": 701,
+      "n_total": 1081,
+      "n_drugs": 84,
+      "approved_drugs": "ACETAMINOPHEN, SELADELPAR, TROGLITAZONE",
+      "is_sl_target": false
+    },
+    {
+      "gene": "NPM1",
+      "auc_mean": 0.7475094806509281,
+      "auc_std": 0.05863224261706372,
+      "n_dependent": 1044,
+      "n_total": 1081,
+      "n_drugs": 7,
+      "approved_drugs": "MIDOSTAURIN, CERITINIB, CRIZOTINIB",
+      "is_sl_target": false
+    },
+    {
+      "gene": "BRAF",
+      "auc_mean": 0.7042661281053478,
+      "auc_std": 0.046976690660913874,
+      "n_dependent": 75,
+      "n_total": 1081,
+      "n_drugs": 200,
+      "approved_drugs": "SORAFENIB, BINIMETINIB, TOVORAFENIB",
+      "is_sl_target": false
+    }
+  ]
+}

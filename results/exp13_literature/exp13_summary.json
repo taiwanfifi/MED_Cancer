@@ -1,0 +1,73 @@
+{
+  "experiment": "Exp 13: Literature Validation",
+  "genes_queried": 50,
+  "total_queries": 350,
+  "spearman_rho": 0.5010340950141198,
+  "spearman_pval": 0.00021052401143686403,
+  "novel_targets": 45,
+  "well_studied_targets": 2,
+  "top_novel": [
+    {
+      "gene": "FGFR1",
+      "novelty_gap": 0.9689192347161683,
+      "pub_cancer": 3059
+    },
+    {
+      "gene": "PARP1",
+      "novelty_gap": 0.7033916765178976,
+      "pub_cancer": 5228
+    },
+    {
+      "gene": "PTEN",
+      "novelty_gap": 0.6969425061336572,
+      "pub_cancer": 18627
+    },
+    {
+      "gene": "CCND1",
+      "novelty_gap": 0.6779049392297438,
+      "pub_cancer": 5772
+    },
+    {
+      "gene": "PDGFRA",
+      "novelty_gap": 0.6451638253037761,
+      "pub_cancer": 2685
+    },
+    {
+      "gene": "ATR",
+      "novelty_gap": 0.634486319682497,
+      "pub_cancer": 4358
+    },
+    {
+      "gene": "CDS2",
+      "novelty_gap": 0.6305811377874369,
+      "pub_cancer": 23
+    },
+    {
+      "gene": "MAD2L1",
+      "novelty_gap": 0.6171257005780424,
+      "pub_cancer": 485
+    },
+    {
+      "gene": "HDAC2",
+      "novelty_gap": 0.5519451905820973,
+      "pub_cancer": 1128
+    },
+    {
+      "gene": "CHMP4B",
+      "novelty_gap": 0.5515565569533447,
+      "pub_cancer": 40
+    }
+  ],
+  "top_studied": [
+    {
+      "gene": "EGFR",
+      "pub_cancer": 98421,
+      "composite_score": 0.3271457545562728
+    },
+    {
+      "gene": "MET",
+      "pub_cancer": 59226,
+      "composite_score": 0.3095074070762169
+    }
+  ]
+}

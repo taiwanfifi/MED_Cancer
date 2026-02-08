@@ -1,0 +1,107 @@
+{
+  "experiment": "Exp 4: Cross-Cancer SL Transferability",
+  "hypothesis": "H3: SL relationships transfer across cancer lineages",
+  "n_lineages_tested": 13,
+  "lineages": [
+    "ovary",
+    "blood",
+    "colorectal",
+    "lung",
+    "skin",
+    "breast",
+    "pancreas",
+    "central_nervous_system",
+    "bone",
+    "lymphocyte",
+    "kidney",
+    "upper_aerodigestive",
+    "liver"
+  ],
+  "n_transfer_tests": 150,
+  "mean_transfer_rate": 0.10259154012921073,
+  "n_universal_sl": 671,
+  "top_universal_pairs": [
+    {
+      "driver_gene": "BRCA2",
+      "target_gene": "RHEB",
+      "n_lineages": 4,
+      "lineages": "blood, colorectal, lung, central_nervous_system",
+      "mean_effect": -0.3147019907909534,
+      "min_effect": -0.3811160931152435
+    },
+    {
+      "driver_gene": "BRCA2",
+      "target_gene": "RARS1",
+      "n_lineages": 4,
+      "lineages": "blood, lung, skin, upper_aerodigestive",
+      "mean_effect": -0.3612920721178251,
+      "min_effect": -0.3889218334209529
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "NARS2",
+      "n_lineages": 4,
+      "lineages": "blood, lung, skin, upper_aerodigestive",
+      "mean_effect": -0.22979390378984235,
+      "min_effect": -0.33854978771102284
+    },
+    {
+      "driver_gene": "BRCA2",
+      "target_gene": "PSMA4",
+      "n_lineages": 4,
+      "lineages": "blood, lung, skin, upper_aerodigestive",
+      "mean_effect": -0.34118349224657973,
+      "min_effect": -0.4220603162984513
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "PPP4C",
+      "n_lineages": 4,
+      "lineages": "lung, skin, central_nervous_system, upper_aerodigestive",
+      "mean_effect": -0.34063198639478054,
+      "min_effect": -0.4371535797133772
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "MRPL23",
+      "n_lineages": 4,
+      "lineages": "blood, lung, skin, central_nervous_system",
+      "mean_effect": -0.28330747327013905,
+      "min_effect": -0.3916157824267574
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "MRPL16",
+      "n_lineages": 4,
+      "lineages": "ovary, blood, lung, skin",
+      "mean_effect": -0.2244237051069902,
+      "min_effect": -0.2830874330078804
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "ADAT2",
+      "n_lineages": 4,
+      "lineages": "blood, lung, skin, upper_aerodigestive",
+      "mean_effect": -0.22943096579382893,
+      "min_effect": -0.27623620836248763
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "RPP21",
+      "n_lineages": 4,
+      "lineages": "lung, skin, central_nervous_system, upper_aerodigestive",
+      "mean_effect": -0.3056005835012962,
+      "min_effect": -0.43756727378840976
+    },
+    {
+      "driver_gene": "KRAS",
+      "target_gene": "MRTO4",
+      "n_lineages": 4,
+      "lineages": "ovary, skin, central_nervous_system, upper_aerodigestive",
+      "mean_effect": -0.35291067428122824,
+      "min_effect": -0.39059381880862465
+    }
+  ],
+  "hypothesis_supported": true,
+  "conclusion": "H3 SUPPORTED: 671 SL pairs validated across \u22652 cancer lineages. Mean cross-lineage transfer rate: 10.3%. This suggests many SL relationships are conserved across cancer types, enabling broader therapeutic applications."
+}

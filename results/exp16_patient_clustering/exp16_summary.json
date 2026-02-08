@@ -1,0 +1,158 @@
+{
+  "experiment": "Exp 16: Multi-Omics Patient Clustering",
+  "method": "Consensus clustering (KMeans x50 iterations, 80% subsampling)",
+  "features": "Expression (top 500 var genes) + Immune + Clinical",
+  "results": {
+    "BRCA": {
+      "cancer_type": "BRCA",
+      "n_patients": 100,
+      "n_features": 514,
+      "best_k": 2,
+      "silhouette": 0.138114959146939,
+      "cpi": 0.5163655284552845,
+      "cluster_sizes": {
+        "1": 75,
+        "0": 25
+      },
+      "survival_p": null,
+      "k_metrics": {
+        "2": {
+          "silhouette": 0.138114959146939,
+          "calinski_harabasz": 11.51259936867496,
+          "cpi": 0.5163655284552845
+        },
+        "3": {
+          "silhouette": 0.06928592590671713,
+          "calinski_harabasz": 9.602568361772908,
+          "cpi": 0.4168268504246381
+        },
+        "4": {
+          "silhouette": 0.0807094641727785,
+          "calinski_harabasz": 8.671034370426733,
+          "cpi": 0.4041053009453153
+        },
+        "5": {
+          "silhouette": 0.04311807728712302,
+          "calinski_harabasz": 6.822036514918722,
+          "cpi": 0.31257735449735446
+        },
+        "6": {
+          "silhouette": 0.08312129113745169,
+          "calinski_harabasz": 7.046644049948519,
+          "cpi": 0.31152217888227773
+        },
+        "7": {
+          "silhouette": 0.08256670141278435,
+          "calinski_harabasz": 6.607601224660191,
+          "cpi": 0.2918746686582644
+        },
+        "8": {
+          "silhouette": 0.07693395571043739,
+          "calinski_harabasz": 6.419116010857541,
+          "cpi": 0.31965024898848426
+        }
+      }
+    },
+    "LUAD": {
+      "cancer_type": "LUAD",
+      "n_patients": 98,
+      "n_features": 514,
+      "best_k": 3,
+      "silhouette": 0.08976129750149979,
+      "cpi": 0.45572482622302635,
+      "cluster_sizes": {
+        "0": 51,
+        "1": 37,
+        "2": 10
+      },
+      "survival_p": 0.07031329344827696,
+      "k_metrics": {
+        "2": {
+          "silhouette": 0.08968472563502948,
+          "calinski_harabasz": 12.670614609923947,
+          "cpi": 0.4624122885495836
+        },
+        "3": {
+          "silhouette": 0.08976129750149979,
+          "calinski_harabasz": 10.50371275911346,
+          "cpi": 0.45572482622302635
+        },
+        "4": {
+          "silhouette": 0.05845911857218392,
+          "calinski_harabasz": 9.068739361491318,
+          "cpi": 0.37386452429149797
+        },
+        "5": {
+          "silhouette": 0.06827593960158666,
+          "calinski_harabasz": 7.6536394312595935,
+          "cpi": 0.30948184309465376
+        },
+        "6": {
+          "silhouette": 0.0709650956357836,
+          "calinski_harabasz": 7.651660958538265,
+          "cpi": 0.32109008858700544
+        },
+        "7": {
+          "silhouette": 0.063925727677444,
+          "calinski_harabasz": 7.096292255586944,
+          "cpi": 0.32850363553338724
+        },
+        "8": {
+          "silhouette": 0.07630466193218438,
+          "calinski_harabasz": 6.353835561851602,
+          "cpi": 0.3020343688037013
+        }
+      }
+    },
+    "KIRC": {
+      "cancer_type": "KIRC",
+      "n_patients": 97,
+      "n_features": 514,
+      "best_k": 2,
+      "silhouette": 0.15347346911182158,
+      "cpi": 0.581047551358852,
+      "cluster_sizes": {
+        "0": 67,
+        "1": 30
+      },
+      "survival_p": 0.27168846937784225,
+      "k_metrics": {
+        "2": {
+          "silhouette": 0.15347346911182158,
+          "calinski_harabasz": 18.69452649640342,
+          "cpi": 0.581047551358852
+        },
+        "3": {
+          "silhouette": 0.1459425356219755,
+          "calinski_harabasz": 13.907089734838026,
+          "cpi": 0.42218168528766836
+        },
+        "4": {
+          "silhouette": 0.11649947809982174,
+          "calinski_harabasz": 12.373905652911711,
+          "cpi": 0.3657966050139327
+        },
+        "5": {
+          "silhouette": 0.12290652877081225,
+          "calinski_harabasz": 10.913555655944618,
+          "cpi": 0.3368548705873452
+        },
+        "6": {
+          "silhouette": 0.09835638438560382,
+          "calinski_harabasz": 9.958619224950903,
+          "cpi": 0.29760652906951646
+        },
+        "7": {
+          "silhouette": 0.08428474688852053,
+          "calinski_harabasz": 9.11545332901101,
+          "cpi": 0.31550222354477675
+        },
+        "8": {
+          "silhouette": 0.10129477475027067,
+          "calinski_harabasz": 8.949835579460565,
+          "cpi": 0.31327405028480393
+        }
+      }
+    }
+  }
+}

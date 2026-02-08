@@ -1,0 +1,154 @@
+{
+  "experiment": "Exp 7: Multi-Omics Integration",
+  "data_sources": [
+    "SL pairs (Exp 2)",
+    "DEGs (Exp 3)",
+    "Drug-Gene (DGIdb)",
+    "Immune (Exp 6)"
+  ],
+  "total_genes_scored": 21415,
+  "actionable_genes": "10",
+  "therapeutic_opportunities": 10,
+  "top_targets": [
+    {
+      "gene": "TP53",
+      "actionability": 0.43999999999999995,
+      "sl_drivers": "BRAF, BRCA2",
+      "drug_names": "VEMURAFENIB, CHEMBL:CHEMBL602150, CHEMBL:CHEMBL201325, CHK1 INHIBITOR GDC-0575, FENTICLOR",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "MYC",
+      "actionability": 0.37,
+      "sl_drivers": "BRCA1",
+      "drug_names": "UBENIMEX, DIETHYLSTILBESTROL, METHYLPREDNISOLONE, PERILLYL ALCOHOL, RONICICLIB",
+      "deg_cancers": "BRCA(\u2193-1.2)"
+    },
+    {
+      "gene": "CCND1",
+      "actionability": 0.37,
+      "sl_drivers": "STK11",
+      "drug_names": "ACETAMINOPHEN, URACIL, LY-510929, NTZDPA, BRICICLIB",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "GPX4",
+      "actionability": 0.35,
+      "sl_drivers": "BRAF, CTNNB1, EGFR, ERBB2, VHL",
+      "drug_names": "",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "RET",
+      "actionability": 0.34633802150413073,
+      "sl_drivers": "",
+      "drug_names": "SUNITINIB, CYC-116, HISTONE DEACETYLASE INHIBITOR, RET INHIBITOR APS03118, SELPERCATINIB",
+      "deg_cancers": "BRCA(\u21911.9)"
+    },
+    {
+      "gene": "CDK6",
+      "actionability": 0.34,
+      "sl_drivers": "BRCA1",
+      "drug_names": "AT-7519, PALBOCICLIB, ABEMACICLIB, TRILACICLIB DIHYDROCHLORIDE, APREMILAST",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "FGFR3",
+      "actionability": 0.33829138107658113,
+      "sl_drivers": "",
+      "drug_names": "FUTIBATINIB, CHEMBL:CHEMBL578061, TRAFERMIN, DACTOLISIB, MASITINIB",
+      "deg_cancers": "BRCA(\u21911.5)"
+    },
+    {
+      "gene": "ERBB2",
+      "actionability": 0.3307782943624008,
+      "sl_drivers": "",
+      "drug_names": "MM-111, TRASTUZUMAB, PERTUZUMAB, FULVESTRANT, IL-12",
+      "deg_cancers": "BRCA(\u21911.2)"
+    },
+    {
+      "gene": "IDH2",
+      "actionability": 0.327290185623267,
+      "sl_drivers": "",
+      "drug_names": "ENASIDENIB, ALECTINIB, IDH2 MUTANT INHIBITOR TQB3455, GILTERITINIB, ENASIDENIB MESYLATE",
+      "deg_cancers": "BRCA(\u21911.1)"
+    },
+    {
+      "gene": "PARP1",
+      "actionability": 0.31152521699907026,
+      "sl_drivers": "",
+      "drug_names": "4-[3-(1,4-DIAZEPAN-1-YLCARBONYL)-4-FLUOROBENZYL]PHTHALAZIN-1(2H)-ONE, CEP-9722, NIACINAMIDE, NIRAPARIB TOSYLATE MONOHYDRATE, OLAPARIB",
+      "deg_cancers": "BRCA(\u21911.1)"
+    },
+    {
+      "gene": "FLT3",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "RECOMBINANT TRANSFORMING GROWTH FACTOR-BETA 1, METHOTREXATE, CABOZANTINIB S-MALATE, HSP90 INHIBITOR LAM-003, DOVITINIB",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "BRAF",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "TGX-221, SORAFENIB, BINIMETINIB, HSP90 INHIBITOR XL888, UPROSERTIB",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "AKT1",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "TAS0612, GEDATOLISIB, IPATASERTIB, EVEROLIMUS, PHA-767491",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "HIF1A",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "AMCINONIDE, EMETINE, FLUFENAMIC ACID, CHEMBL:CHEMBL458765, TIRATRICOL",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "BRCA2",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "CEDIRANIB, VELIPARIB, VANILLIN, EPICATECHIN, NIRAPARIB",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "BCL2",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "OXALIPLATIN, POLATUZUMAB VEDOTIN, METHYLPREDNISOLONE, TESETAXEL, MILATAXEL",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "VEGFA",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "PTC299, PEGAPTANIB, BROLUCIZUMAB, GENTAMICIN, AFLIBERCEPT",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "CDK4",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "RIBOCICLIB, R547, PALBOCICLIB, RECOMBINANT TRANSFORMING GROWTH FACTOR, ATIRMOCICLIB",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "CTLA4",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "TREMELIMUMAB, IPILIMUMAB, CYCLOSPORINE, ATEZOLIZUMAB, VISILIZUMAB",
+      "deg_cancers": ""
+    },
+    {
+      "gene": "KIT",
+      "actionability": 0.3,
+      "sl_drivers": "",
+      "drug_names": "BINIMETINIB, BEVACIZUMAB, DOVITINIB, AMUVATINIB, AKT INHIBITOR MK2206",
+      "deg_cancers": "BRCA(\u2193-3.1)"
+    }
+  ]
+}

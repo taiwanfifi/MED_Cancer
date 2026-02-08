@@ -1,0 +1,152 @@
+{
+  "experiment": "Exp 12: Cross-Experiment Integration",
+  "total_genes": 4750,
+  "genes_with_sl": 126,
+  "druggable_genes": 57,
+  "novel_targets": 122,
+  "highly_predictable_dep": 10,
+  "drug_combinations": 4,
+  "top_10_targets": [
+    {
+      "gene": "FGFR1",
+      "composite_score": 0.4755753777524609,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 35,
+      "dep_auc": 0.8347717777144856
+    },
+    {
+      "gene": "PTEN",
+      "composite_score": 0.4214553259327512,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 64,
+      "dep_auc": 0.866138314831878
+    },
+    {
+      "gene": "MYC",
+      "composite_score": 0.3657164404223228,
+      "sl_n_drivers": 1,
+      "n_approved_drugs": 29,
+      "dep_auc": 0.6226244343891404
+    },
+    {
+      "gene": "PARP1",
+      "composite_score": 0.3597777294790988,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 9,
+      "dep_auc": 0.7827776570310803
+    },
+    {
+      "gene": "KRAS",
+      "composite_score": 0.3581933519718908,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 56,
+      "dep_auc": 0.6142333799297269
+    },
+    {
+      "gene": "CCND1",
+      "composite_score": 0.3502855009865088,
+      "sl_n_drivers": 1,
+      "n_approved_drugs": 25,
+      "dep_auc": 0.7507137524662719
+    },
+    {
+      "gene": "ERBB2",
+      "composite_score": 0.3369071800455558,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 64,
+      "dep_auc": 0.6756012834472228
+    },
+    {
+      "gene": "BCL2",
+      "composite_score": 0.3308436018957346,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 32,
+      "dep_auc": 0.8271090047393365
+    },
+    {
+      "gene": "EGFR",
+      "composite_score": 0.32714575455627287,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 60,
+      "dep_auc": 0.6511977197240155
+    },
+    {
+      "gene": "ATR",
+      "composite_score": 0.3228041532402435,
+      "sl_n_drivers": 0,
+      "n_approved_drugs": 11,
+      "dep_auc": 0.8070103831006087
+    }
+  ],
+  "immune_associations": {
+    "immune_CD8_T_cells": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_CD4_T_cells": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_T_regulatory": {
+      "cancers_protective": [
+        "BRCA"
+      ],
+      "cancers_risk": []
+    },
+    "immune_NK_cells": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_B_cells": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_Macrophages_M1": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_Macrophages_M2": {
+      "cancers_protective": [],
+      "cancers_risk": [
+        "BRCA"
+      ]
+    },
+    "immune_Dendritic_cells": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_Neutrophils": {
+      "cancers_protective": [],
+      "cancers_risk": [
+        "BRCA"
+      ]
+    },
+    "immune_Mast_cells": {
+      "cancers_protective": [
+        "LUAD"
+      ],
+      "cancers_risk": [
+        "BRCA"
+      ]
+    },
+    "immune_Exhaustion": {
+      "cancers_protective": [],
+      "cancers_risk": []
+    },
+    "immune_IFN_gamma": {
+      "cancers_protective": [
+        "BRCA"
+      ],
+      "cancers_risk": []
+    }
+  },
+  "outlier_immune_findings": {
+    "outlier_immune_CD8_T_cells": 1,
+    "outlier_immune_CD4_T_cells": 1,
+    "outlier_immune_NK_cells": 1,
+    "outlier_immune_B_cells": 1,
+    "outlier_immune_Dendritic_cells": 2,
+    "outlier_immune_T_regulatory": 1,
+    "outlier_immune_Mast_cells": 1
+  }
+}

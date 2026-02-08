@@ -1,0 +1,103 @@
+{
+  "experiment": "Exp 19: Immune-SL Combination Strategy",
+  "cancer_types": [
+    "BRCA",
+    "LUAD",
+    "KIRC"
+  ],
+  "immune_classifications": {
+    "BRCA": {
+      "n_hot": 50,
+      "n_cold": 50,
+      "n_intermediate": 50
+    },
+    "LUAD": {
+      "n_hot": 49,
+      "n_cold": 49,
+      "n_intermediate": 50
+    },
+    "KIRC": {
+      "n_hot": 49,
+      "n_cold": 49,
+      "n_intermediate": 49
+    }
+  },
+  "diff_expression": {
+    "total_tests": 60,
+    "significant_fdr05": 3,
+    "top_hits": [
+      {
+        "gene": "BCL2",
+        "cancer_type": "BRCA",
+        "log2fc": -22.349245496894422,
+        "fdr": 0.027717398628579845,
+        "upregulated_in": "Cold"
+      },
+      {
+        "gene": "GSS",
+        "cancer_type": "KIRC",
+        "log2fc": 9.547795153061223,
+        "fdr": 0.04081742042533593,
+        "upregulated_in": "Hot"
+      },
+      {
+        "gene": "BRCA2",
+        "cancer_type": "LUAD",
+        "log2fc": 1.7591101371951219,
+        "fdr": 0.049229282506403196,
+        "upregulated_in": "Hot"
+      },
+      {
+        "gene": "SLC7A11",
+        "cancer_type": "BRCA",
+        "log2fc": 1.8479908385093171,
+        "fdr": 0.060003278378224556,
+        "upregulated_in": "Hot"
+      },
+      {
+        "gene": "BRCA1",
+        "cancer_type": "LUAD",
+        "log2fc": 2.962032164634148,
+        "fdr": 0.08836462575001854,
+        "upregulated_in": "Hot"
+      }
+    ]
+  },
+  "survival_analysis": {
+    "total_tests": 5,
+    "significant_p05": 0
+  },
+  "sl_targets_tested": [
+    "GPX4",
+    "FGFR1",
+    "MDM2",
+    "CDK6",
+    "BCL2",
+    "MYC",
+    "CCND1",
+    "PTEN",
+    "STK11",
+    "BRCA1",
+    "BRCA2",
+    "EGFR",
+    "BRAF",
+    "TP53",
+    "GCLM",
+    "GCLC",
+    "SLC7A11",
+    "ACSL4",
+    "DHODH",
+    "GSS"
+  ],
+  "immune_signatures": [
+    "CD8_T",
+    "CD4_T",
+    "B_cells",
+    "NK_cells",
+    "Macrophage",
+    "Dendritic",
+    "Treg",
+    "Exhaustion",
+    "IFN_gamma"
+  ]
+}

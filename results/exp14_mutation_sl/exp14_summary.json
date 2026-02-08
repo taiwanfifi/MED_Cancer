@@ -1,0 +1,46 @@
+{
+  "experiment": "Exp 14: Mutation \u2192 SL \u2192 Drug Mapping",
+  "total_patients": 1577,
+  "total_mutations": 37063,
+  "cancer_types": [
+    "BRCA",
+    "LUAD",
+    "KIRC"
+  ],
+  "sl_targetable_patients": 965,
+  "druggable_patients": 210,
+  "unique_sl_targets": 124,
+  "unique_drivers": 14,
+  "top_recommendations": [
+    {
+      "driver_mutation": "STK11",
+      "sl_target": "CCND1",
+      "patient_id": 72,
+      "approved_drugs": "ACETAMINOPHEN, SELADELPAR, TROGLITAZONE"
+    },
+    {
+      "driver_mutation": "BRCA2",
+      "sl_target": "TP53",
+      "patient_id": 65,
+      "approved_drugs": "VEMURAFENIB, PACLITAXEL, ERLOTINIB"
+    },
+    {
+      "driver_mutation": "BRCA1",
+      "sl_target": "MYC",
+      "patient_id": 51,
+      "approved_drugs": "DIETHYLSTILBESTROL, METHYLPREDNISOLONE, OLAPARIB"
+    },
+    {
+      "driver_mutation": "BRCA1",
+      "sl_target": "CDK6",
+      "patient_id": 51,
+      "approved_drugs": "PALBOCICLIB, ABEMACICLIB, TRILACICLIB DIHYDROCHLORIDE"
+    },
+    {
+      "driver_mutation": "BRAF",
+      "sl_target": "TP53",
+      "patient_id": 46,
+      "approved_drugs": "VEMURAFENIB, PACLITAXEL, ERLOTINIB"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "experiment": "Exp 11: Survival Outlier Analysis",
+  "rationale": "Why do some Stage IV patients survive years while some Stage I patients die quickly?",
+  "findings": [
+    {
+      "cancer_type": "BRCA",
+      "n_patients": 957,
+      "n_exceptional_survivors": "96",
+      "n_unexpected_deaths": "96",
+      "n_protective_genes": "0",
+      "n_lethal_genes": "0",
+      "top_protective": [],
+      "top_lethal": []
+    },
+    {
+      "cancer_type": "LUAD",
+      "n_patients": 376,
+      "n_exceptional_survivors": "38",
+      "n_unexpected_deaths": "38",
+      "n_protective_genes": "0",
+      "n_lethal_genes": "0",
+      "top_protective": [],
+      "top_lethal": []
+    },
+    {
+      "cancer_type": "KIRC",
+      "n_patients": 436,
+      "n_exceptional_survivors": "44",
+      "n_unexpected_deaths": "44",
+      "n_protective_genes": "0",
+      "n_lethal_genes": "0",
+      "top_protective": [],
+      "top_lethal": []
+    }
+  ]
+}

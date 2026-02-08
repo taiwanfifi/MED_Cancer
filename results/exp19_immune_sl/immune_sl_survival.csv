@@ -1,0 +1,6 @@
+gene,cancer_type,overall_4group_p,cold_high_vs_hot_low_p,n_total,group_sizes
+GPX4,LUAD,0.09935630843059609,0.04620209265595809,29,"{'Cold-High': 11, 'Hot-Low': 9, 'Cold-Low': 7, 'Hot-High': 2}"
+FGFR1,LUAD,0.20873960302687822,0.41771292877527566,29,"{'Cold-Low': 10, 'Cold-High': 8, 'Hot-High': 6, 'Hot-Low': 5}"
+MDM2,LUAD,0.13392462401568803,0.13198840631292894,29,"{'Cold-High': 10, 'Cold-Low': 8, 'Hot-Low': 6, 'Hot-High': 5}"
+CDK6,LUAD,0.10513577249083235,,29,"{'Cold-Low': 12, 'Hot-High': 9, 'Cold-High': 6, 'Hot-Low': 2}"
+BCL2,LUAD,0.08582618738910842,0.7874280970343388,29,"{'Cold-Low': 11, 'Cold-High': 7, 'Hot-Low': 6, 'Hot-High': 5}"

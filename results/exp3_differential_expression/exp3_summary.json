@@ -1,0 +1,217 @@
+{
+  "experiment": "Exp 3: Differential Expression & Pathway Enrichment",
+  "cancer_types_analyzed": [
+    {
+      "cancer_type": "BRCA",
+      "n_up": 961,
+      "n_down": 1713,
+      "top_up_genes": [
+        "COL10A1",
+        "MMP11",
+        "COL11A1",
+        "COMP",
+        "CST1",
+        "LINC01614",
+        "S100P",
+        "UBE2C",
+        "MMP13",
+        "NEK2",
+        "PITX1",
+        "GJB2",
+        "TOP2A",
+        "MYBL2",
+        "LRRC15",
+        "TPX2",
+        "NKAIN1",
+        "MMP1",
+        "MISP",
+        "BIRC5"
+      ],
+      "top_down_genes": [
+        "FABP4",
+        "LEP",
+        "PLIN1",
+        "CIDEC",
+        "GPD1",
+        "ADIPOQ",
+        "ADH1B",
+        "PLIN4",
+        "TRARG1",
+        "RBP4",
+        "SCARA5",
+        "VEGFD",
+        "SAA1",
+        "CHRDL1",
+        "SFRP1",
+        "CD300LG",
+        "CD36",
+        "PI16",
+        "LINCADL",
+        "LPL"
+      ]
+    },
+    {
+      "cancer_type": "LUAD",
+      "n_up": 1252,
+      "n_down": 1910,
+      "top_up_genes": [
+        "FAM83A",
+        "CRABP2",
+        "SPP1",
+        "SPINK1",
+        "MMP11",
+        "CST1",
+        "B3GNT3",
+        "COL10A1",
+        "MMP1",
+        "PYCR1",
+        "UBE2C",
+        "MYBL2",
+        "TOP2A",
+        "CYP24A1",
+        "TMPRSS4",
+        "CTHRC1",
+        "CDC20",
+        "CEACAM5",
+        "PPP1R14D",
+        "ETV4"
+      ],
+      "top_down_genes": [
+        "SFTPC",
+        "AGER",
+        "CLDN18",
+        "FABP4",
+        "UPK3B",
+        "SFTPA1",
+        "SLC6A4",
+        "SCGB1A1",
+        "SFTPA2",
+        "ITLN2",
+        "LGI3",
+        "WIF1",
+        "HBB",
+        "MCEMP1",
+        "ANKRD1",
+        "HBA2",
+        "PEBP4",
+        "FCN3",
+        "TMEM100",
+        "GKN2"
+      ]
+    },
+    {
+      "cancer_type": "KIRC",
+      "analysis_type": "variance",
+      "top_variable_genes": [
+        "MIR4501",
+        "AC093416.1",
+        "RN7SL266P",
+        "RNA5-8SP5",
+        "MIR3144",
+        "AL358053.1",
+        "CFTR-AS1",
+        "RNU4-56P",
+        "RPS27AP14",
+        "RTL1",
+        "AC034234.1",
+        "FAM204CP",
+        "RN7SL98P",
+        "AC000111.2",
+        "MIR577",
+        "RNA5-8SN1",
+        "AC078955.1",
+        "AC025038.1",
+        "SULT1C3",
+        "FP236383.5"
+      ]
+    }
+  ],
+  "key_findings": [
+    "BRCA: SL targets upregulated in tumor: ['CFL1', 'CHAF1B', 'GINS4', 'KIF14', 'MAD2L1', 'ORC6', 'SEPHS2', 'SGO1', 'TTK', 'TUBG1'] \u2014 These are prime drug target candidates (essential when driver is mutated AND overexpressed in tumor)",
+    "LUAD: SL targets upregulated in tumor: ['CHAF1B', 'DTYMK', 'GAPDH', 'GINS4', 'KIF14', 'MAD2L1', 'ORC6', 'RFC4', 'SGO1', 'TTK', 'TUBG1', 'TWNK'] \u2014 These are prime drug target candidates (essential when driver is mutated AND overexpressed in tumor)"
+  ],
+  "cross_references": [
+    {
+      "cancer_type": "BRCA",
+      "n_sl_targets": 126,
+      "n_degs": 2674,
+      "overlap": [
+        "CFL1",
+        "CHAF1B",
+        "FERMT2",
+        "GINS4",
+        "IRS2",
+        "KIF14",
+        "MAD2L1",
+        "MYC",
+        "ORC6",
+        "SEPHS2",
+        "SGO1",
+        "TTK",
+        "TUBG1"
+      ],
+      "sl_upregulated": [
+        "CFL1",
+        "CHAF1B",
+        "GINS4",
+        "KIF14",
+        "MAD2L1",
+        "ORC6",
+        "SEPHS2",
+        "SGO1",
+        "TTK",
+        "TUBG1"
+      ],
+      "sl_downregulated": [
+        "FERMT2",
+        "IRS2",
+        "MYC"
+      ],
+      "driver_degs": [
+        "EGFR",
+        "ERBB2",
+        "MYC"
+      ]
+    },
+    {
+      "cancer_type": "LUAD",
+      "n_sl_targets": 126,
+      "n_degs": 3162,
+      "overlap": [
+        "CHAF1B",
+        "DTYMK",
+        "FERMT2",
+        "GAPDH",
+        "GINS4",
+        "KIF14",
+        "MAD2L1",
+        "ORC6",
+        "RFC4",
+        "SGO1",
+        "TTK",
+        "TUBG1",
+        "TWNK",
+        "WWTR1"
+      ],
+      "sl_upregulated": [
+        "CHAF1B",
+        "DTYMK",
+        "GAPDH",
+        "GINS4",
+        "KIF14",
+        "MAD2L1",
+        "ORC6",
+        "RFC4",
+        "SGO1",
+        "TTK",
+        "TUBG1",
+        "TWNK"
+      ],
+      "sl_downregulated": [
+        "FERMT2",
+        "WWTR1"
+      ],
+      "driver_degs": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "experiment": "Exp 21: Network Medicine \u2014 Pathway SL",
+  "total_sl_pairs": 802,
+  "pathways_defined": 12,
+  "pathway_interactions": 27,
+  "top_pathway_hubs": [
+    {
+      "pathway": "RAS_MAPK",
+      "hub_score": 2280,
+      "connected_pathways": 8
+    },
+    {
+      "pathway": "DNA_Repair",
+      "hub_score": 1530,
+      "connected_pathways": 6
+    },
+    {
+      "pathway": "PI3K_AKT_mTOR",
+      "hub_score": 750,
+      "connected_pathways": 5
+    },
+    {
+      "pathway": "RTK_Signaling",
+      "hub_score": 219,
+      "connected_pathways": 3
+    },
+    {
+      "pathway": "Chromatin_Remodeling",
+      "hub_score": 129,
+      "connected_pathways": 3
+    }
+  ],
+  "top_enriched_interactions": [
+    {
+      "pathway_a": "Cell_Cycle",
+      "pathway_b": "DNA_Repair",
+      "n_sl_pairs": 5,
+      "enrichment_ratio": 0.22
+    },
+    {
+      "pathway_a": "RAS_MAPK",
+      "pathway_b": "RAS_MAPK",
+      "n_sl_pairs": 3,
+      "enrichment_ratio": 0.3
+    },
+    {
+      "pathway_a": "Ferroptosis",
+      "pathway_b": "RAS_MAPK",
+      "n_sl_pairs": 3,
+      "enrichment_ratio": 0.3
+    },
+    {
+      "pathway_a": "DNA_Repair",
+      "pathway_b": "MYC_Network",
+      "n_sl_pairs": 3,
+      "enrichment_ratio": 0.27
+    },
+    {
+      "pathway_a": "DNA_Repair",
+      "pathway_b": "PI3K_AKT_mTOR",
+      "n_sl_pairs": 3,
+      "enrichment_ratio": 0.21
+    }
+  ],
+  "druggable_pathways": [
+    {
+      "pathway": "RTK_Signaling",
+      "druggable_genes": 12,
+      "total_drugs": 60
+    },
+    {
+      "pathway": "DNA_Repair",
+      "druggable_genes": 5,
+      "total_drugs": 25
+    },
+    {
+      "pathway": "Chromatin_Remodeling",
+      "druggable_genes": 5,
+      "total_drugs": 25
+    },
+    {
+      "pathway": "RAS_MAPK",
+      "druggable_genes": 5,
+      "total_drugs": 25
+    },
+    {
+      "pathway": "PI3K_AKT_mTOR",
+      "druggable_genes": 4,
+      "total_drugs": 20
+    }
+  ]
+}

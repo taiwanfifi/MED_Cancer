@@ -1,0 +1,38 @@
+{
+  "experiment": "Exp 17: External Validation",
+  "datasets_used": [
+    "GSE20685",
+    "GSE31210",
+    "GSE72094"
+  ],
+  "n_datasets": 3,
+  "gene_survival": {
+    "total_tests": 60,
+    "significant": 11,
+    "validation_rate": 0.18333333333333332,
+    "per_dataset": {
+      "gene": {
+        "GSE20685": 12,
+        "GSE72094": 12,
+        "TCGA-BRCA": 12,
+        "TCGA-KIRC": 12,
+        "TCGA-LUAD": 12
+      },
+      "significant": {
+        "GSE20685": 2,
+        "GSE72094": 5,
+        "TCGA-BRCA": 1,
+        "TCGA-KIRC": 1,
+        "TCGA-LUAD": 2
+      }
+    }
+  },
+  "ferroptosis": {
+    "n_datasets_tested": 2,
+    "n_significant": 1
+  },
+  "immune": {
+    "n_tests": 10,
+    "n_significant": 3
+  }
+}
