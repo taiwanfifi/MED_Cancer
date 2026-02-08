@@ -7,6 +7,8 @@
 
 **A computational framework for discovering synthetic lethal targets, drug repurposing opportunities, and precision oncology strategies across 33 cancer types, integrating TCGA, DepMap, DGIdb, and OpenTargets data.**
 
+**English README (this file)** | **[繁體中文 README](README_zh-TW.md)**
+
 ---
 
 ## Abstract
@@ -218,8 +220,10 @@ Results are saved to `results/exp{N}_{name}/` with CSV data files, JSON summarie
 
 ## Team & Acknowledgments
 
-**Taipei Medical University — Medical Data Engineering Lab**
-- **Principal Investigator**: Prof. Yang (Pharmacovigilance, Drug Safety, CDSS)
+**Graduate Institute of Biomedical Informatics, College of Medical Science and Technology, Taipei Medical University, Taipei, Taiwan**
+
+- **Lead Researcher**: Wei-Lun Cheng (程煒倫), PhD Candidate — d610110005@tmu.edu.tw
+- **Corresponding Author / Advisor**: Prof. Hsuan-Chia Yang (楊軒佳) — lovejog@tmu.edu.tw
 
 Computational experiments performed on NVIDIA RTX 5880 Ada GPU (48GB VRAM). All analyses use publicly available datasets (TCGA, DepMap, DGIdb, OpenTargets, GEO).
 
@@ -233,4 +237,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 ## Contact
 
-For questions about the code, data, or collaboration opportunities, please open an [issue](https://github.com/taiwanfifi/MED_Cancer/issues) on this repository.
+For questions about the code, data, or collaboration opportunities, please contact Wei-Lun Cheng (d610110005@tmu.edu.tw) or open an [issue](https://github.com/taiwanfifi/MED_Cancer/issues) on this repository.
